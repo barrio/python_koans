@@ -48,7 +48,7 @@ def koans():
     loader = unittest.TestLoader()
     suite = unittest.TestSuite()
     loader.sortTestMethodsUsing = None
-    suite.addTests(loader.loadTestsFromTestCase(AboutAsserts))
+    '''suite.addTests(loader.loadTestsFromTestCase(AboutAsserts))
     suite.addTests(loader.loadTestsFromTestCase(AboutStrings))
     suite.addTests(loader.loadTestsFromTestCase(AboutNone))
     suite.addTests(loader.loadTestsFromTestCase(AboutLists))
@@ -66,7 +66,7 @@ def koans():
     suite.addTests(loader.loadTestsFromTestCase(AboutIteration))
     suite.addTests(loader.loadTestsFromTestCase(AboutGenerators))
     suite.addTests(loader.loadTestsFromTestCase(AboutLambdas))
-    suite.addTests(loader.loadTestsFromTestCase(AboutScoringProject))
+    suite.addTests(loader.loadTestsFromTestCase(AboutScoringProject))'''
     suite.addTests(loader.loadTestsFromTestCase(AboutClasses))
     suite.addTests(loader.loadTestsFromTestCase(AboutNewStyleClasses))
     suite.addTests(loader.loadTestsFromTestCase(AboutWithStatements))
